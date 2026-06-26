@@ -1,6 +1,6 @@
 import { Plus } from 'lucide-react';
-import { useTodoStore } from '../store/todoStore';
-import { useFormStore } from '../store/formStore';
+import { useTodoStore } from '../store/TodoStore';
+import { useFormStore } from '../store/FormStore';
 
 export default function TodoForm() {
   const { text, type, setText, setType, reset } = useFormStore();

@@ -1,5 +1,5 @@
 import { Check } from 'lucide-react';
-import { useTodoStore } from '../store/todoStore';
+import { useTodoStore } from '../store/TodoStore';
 
 export default function TodoItem({ todo }) {
   const toggleTodo = useTodoStore((state) => state.toggleTodo);
